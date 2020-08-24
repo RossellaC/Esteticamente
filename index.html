@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="it">
+<!--elementi in head non visibili al visitatore -->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Esteticamente | Centro estetico, Grotta di Sale</title>
+  <!-- messaggio per utenti  max 160 caratteri -->
+  <meta name="description" content="Grotta di sale e trattamenti estetici"/>
+  <!-- CSS  -->
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <!-- creato tramite il sito google fonts che genera con genera il link e il css da inserire nel file style.css all'interno del tag bodi in
+  quanto va a selezionare tutto il tag body e inserisce tale scrittura-->
+
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caveat:wght@700&family=Lobster&display=swap" rel="stylesheet">
+
+<!-- fixed NavBar -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<!--nel tag body c'è tutto ciò visibile all'utente-->
+<body>
+  <!--barra di navigazione fixed NavBar sito materialize-->
+  <div class="navbar-fixed">
+    <nav class="white" role="navigation">
+      <div class="nav-wrapper #ff0a0b red container ">
+
+        <!-- a si usa quando vogliamo inserire un LINK per inserire un link quando si clicca sul tasto logo basya inserire
+        il link al posto di #!
+       <a href="https://www.google.it/"">class="brand-logo">Logo</a>
+       SE invece vogliamo che va all'inizio della  pagina basta inserire #
+       <a href="#" class="brand-logo">Logo</a>
+       SE invece non vogliamo fare nulla basta scrivere
+       <a href="#!" class="brand-logo">Logo</a> -->
+       <a id="logo-container"  href="#" class="brand-logo ">Logo</a>
+        <!-- il tag ul significa lista non ordinata nel senso 1.1 - 1.2 ecc-->
+
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#servizio">Servizio</a></li>
+          <li><a href="#registrazione">Registati</a></li>
+          <li><a href="#ospita">Ospita</a></li>
+        </ul>
+        <a href="#" data-target="nav-mobile " class="sidenav-trigger "><i class="material-icons">menu</i></a>
+      </div>
+          </nav>
+        </div>
+        <ul id="nav-mobile " class="sidenav ">
+          <li><a href="#servizio">Servizio</a></li>
+          <li><a href="#registrazione">Registati</a></li>
+          <li><a href="#ospita">Ospita</a></li>
+  </ul>
+
+<!--intro-->
+  <div id="index-banner" class="parallax-container">
+    <div class="section-intro no-pad-bot">
+      <div class="container ">
+        <br><br>
+        <!-- h1 --heder one es il titolo e in genere si usa da h1 a h5
+        white - text ci permette di avere il testo biano-->
+
+        <h1 class=" header center white-text ">Sentiti a casa ovunque tu sia</h1>
+        <div class="row center">
+          <h5 class="header-subtitle col s12 light">Prenota in pochi click l'alloggio per la tua prossima destinazione.</h5>
+        </div>
+        <div class="row center">
+          <!--button -->
+          <!--# servizo significa che rimane nella stessa pag ma si sposta nell'id denominato servizio-->
+          <a href="#servizio" class="btn-large waves-effect waves-light 	#fc1219 red darken-4">Scopri come funziona</a>
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="logoMara.png " alt="Unsplashed background img 1"></div>
+  </div>
+
+<!--servizio-->
+  <div  id="servizio" class="container">
+    <div class="section">
+      <!--aggiunto per inserire uno spazio tramite css per farlo scendere sotto-->
+      <div class="col-servizio">
+
+
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <!--s12 prende tutta la riga  m significa che su un mobile si vede un terzo visto che è 4-->
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <!-- i si usa per caricare le icone
+            non viene utilizzata l'immagine in quanto basta andare sul position
+          materil. icons e cercare quella interessata e si aggiunge inserendo l'immagine scelta da noi-->
+
+            <h2 class="center red-text text-lighten-1"><i class="material-icons">map</i></h2>
+            <h5 class="center">Affitta appartamneti o stanze in qualsiasi parte della città</h5>
+            <br><!--permette di andare a capo-->
+            <h5 class=" red-text text-lighten-1">Trova l'appartamento che fa per te a prezzi convenienti.</h5>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center red-text text-lighten-1"><i class="material-icons">my_location</i></h2>
+            <h5 class="center">Scopri i quartieri dove vivono le persone del luogo</h5>
+            <br><!--permette di andare a capo-->
+            <h5 class=" red-text text-lighten-1">Vivi alla scoperta dell'anima della città a contatto con i locali.</h5>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center red-text text-lighten-1 "><i class="material-icons">home</i></h2>
+            <h5 class="center">Sentiti sempre a casa. Vivila mantenendo la tua privacy</h5>
+            <br><!--permette di andare a capo-->
+            <h5 class=" red-text text-lighten-1">Trovaerai sempre casa pulita e pronta ad essere utilizzata.</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--registrazione-->
+  <div  id="registrazione" class="parallax-container valign-wrapper">
+    <div class="section-registrazione no-pad-bot">
+
+      <div class="container">
+        <div class="row center">
+         <i class="material-icons registrazione-icon">flight</i>
+          <h3 class=" col s12 light">Sei in cerca della tua prossima destinazione</h3>
+            <h5 class="col s12 registrazione-subtitle">Registrati per rimanere aggiornato sul rilascio della versione beta</h5>
+<!--email presa da materialize.com sezione form text inputs-->
+
+            <div class="row">
+              <div class="input-field col s12 l6 offset-l3 " >
+
+                <!-- Begin Mailchimp Signup Form -->
+
+<div id="mc_embed_signup">
+<form action="https://yahoo.us17.list-manage.com/subscribe/post?u=9afb7bc8ef447567a6f01bcc1&amp;id=58acdce354" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+
+	<input type="email" value="" name="EMAIL" class=" email validate  white center black" id="mce-EMAIL" placeholder=" Inserisci qui la tua email!" required>
+  <button class="btn btn-registrazione waves-effect waves-light red lighten-1" type="submit" name="action">Voglio Registrarmi!
+    <i class="material-icons right">send</i>
+  </button>
+    </div>
+</form>
+</div>
+
+<!--End mc_embed_signup-->
+
+
+                <!--elemento successivo
+                  <label for="email">Email</label> -->
+            </div>
+          </div>
+
+        </div>
+
+    </div>
+    </div>
+    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+</div>
+
+<!--Ospita-->
+  <div id="ospita" class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+
+          <i class="material-icons registrazione-icon red-text text-lighten-1">place</i>
+
+
+          <h3>Vuoi affittare la tua casa?</h3>
+
+          <!--<p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+          -->
+            <h5 class="col s12 registrazione-subtitle">Compila il questionario indicando la città, il quartiere e il numero di camere disponibili.</h5>
+            <button class="col l6 offset-l3 btn btn-ospita waves-effect waves-light red lighten-1" type="submit" name="action">Voglio Affittare casa!
+              <i class="material-icons right">send</i>
+            </button>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- <div  class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
+  </div> -->
+
+
+<!--nel <footer> contiene tuttciò ciò che è in fondo in una barra fissa-->
+<!-- <footer> -->
+  <footer class="page-footer ">
+    <div class="container">
+      <div class="row ">
+        <div class="col l12 s6 center">
+          <h5 class="white-text ">Contattaci</h5>
+            <a href="mailto:rossella.calabretta89@gmail.com" class="social-icon"><i class="fas fa-envelope-square fa-3x"></i></a>
+            <a href="" target="_blank" class="social-icon"><i class="fab fa-instagram fa-3x "></i></a>
+            <!--target="_blank"  -- apre il link su una nuova pagina-->
+            <a href="https://www.facebook.com/Esteticamente-1706606899367071" target="_blank" class="social-icon"><i class="fab fa-facebook-square fa-3x"></i></a>
+            <a href="https://wa.me/393895010225" target="_blank" class="social-icon"><i class="fab fa-whatsapp-square fa-3x"></i></a>
+
+        </div>
+        <!-- <div class="col l3 s12">
+          <h5 class="white-text">Settings</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div> -->
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      &copy <a class="brown-text text-lighten-3">Rossella Calabretta</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>

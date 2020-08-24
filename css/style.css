@@ -1,0 +1,135 @@
+
+body{
+/*font-family: 'Abril Fatface', cursive;*/
+font-family: 'Caveat', cursive;
+font-family: 'Lobster', cursive;
+}
+/* per SFOCARE  l'immagine (logo) basta cambiare i px
+img {
+/* per sfocare l'immagine (logo) basta cambiare i px
+    -webkit-filter: blur(2px);
+}
+*/
+}
+nav.brand-logo{
+  font-family: 'Meddon', cursive;
+
+}
+
+nav .nav-wrapper {
+    padding: 0 50px;
+}
+nav ul a,
+nav .brand-logo {
+  color: #111111;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #111111;
+
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+.section-intro{
+  /* testo e bottoni presi al 100% */
+  height: 100%;
+  width: 100%;
+}
+
+
+
+  /* per dare un margine al titolo si usa la percentuale cosi si può adattare
+  a qualsiasi dispositivo*/
+  .header
+  {
+
+    margin-top: 15%;
+  }
+  .header-subtitle{
+    margin-top: 10%;
+    font-size: 2em;/* materialize ha una dim di 14px quindi 2em (utile per l'adattamento nelle pag)
+    lo moltiplica per due*/
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+  .nav-wrapper {
+  padding: 0 10px;
+
+  }
+}
+/*inserimento di margine al div col-servizio*/
+
+.col-servizio
+{
+    margin-top: 60px;
+    /* margine inferiore */
+    margin-bottom: 100px;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+/* va prendere solo l'id con #servizio
+*/
+#servizo h5{
+  font-size: 1.3em;
+  line-height: 1.6em;
+}
+.section-registrazione{
+  height: 100%;
+  width: 100%;
+}
+.registrazione-icon {
+  font-size: 7em;
+  margin-top: 60px;
+
+}
+.btn-registrazione{
+  width: 100%;
+}
+.btn-ospita{
+  width: 100%;
+}
+.ospita-icons {
+  font-size: 7em;
+  margin-top: 60px;
+}
+
+footer.page-footer {
+  margin: 0;
+  background-color: #000000;
+}
+.social-icon{
+  font-size: 1.5em;
+  color: green;
+  padding:inherit;
+}
+.social-icon:hover{
+  color: red;
+}
